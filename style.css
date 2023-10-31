@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Barlow+Semi+Condensed&family=Outfit&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Barlow+Semi+Condensed&family=Open+Sans&family=Outfit&family=Raleway:wght@700&display=swap");
+
+h1 {
+  font-family: Raleway, sans-serif;
+}
+
+p {
+  font-family: Open Sans, sans sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%s;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.headerright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+.text h1 {
+  font-size: 45px;
+}
+
+.text {
+  text-align: left;
+}
+
+.sectionone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sectionone img {
+  width: 650px;
+  height: 500px;
+}
+
+.mailbutton {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 10px;
+}
+
+.first {
+  width: 48%;
+  height: 38px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.second {
+  height: 38px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.mailbutton input {
+  width: 55%;
+}
+
+.curve {
+  width: 100%;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arrows img {
+  width: 24px;
+  height: 24px;
+}
+
+.arrows p {
+  color: hsl(170, 45%, 43%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 1px 1px 6px grey;
+  width: 60%;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 13px;
+  margin-bottom: 12px;
+}
+
+.two {
+  background-color: hsl(240, 75%, 98%);
+  display: flex;
+  flex-direction: row;
+}
+
+.sectiontwo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ilustrationtwo {
+  width: 650px;
+  height: 500px;
+}
+
+.lefttext {
+  display: flex;
+  flex-direction: column;
+}
+
+.acces {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(238, 22%, 44%);
+  padding: 20px;
+}
+
+.gmail {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  border-radius: 2px;
+  padding: 10px;
+  width: 130%;
+}
+
+.details p {
+  font-size: 12px;
+  margin: 1px;
+}
+
+.details h1 {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.early {
+  color: white;
+}
+
+.foot {
+  background-color: red;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 0px;
+  color: white;
+}
+
+.contact p {
+  margin-left: 13px;
+}
