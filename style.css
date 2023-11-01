@@ -12,7 +12,7 @@ p {
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .header {
@@ -227,9 +227,9 @@ input {
   justify-content: space-around;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1100px) {
   html {
-    width: max-content;
+    width: fit-content;
   }
 
   .sectionone {
@@ -246,7 +246,7 @@ input {
   }
 
   .background {
-    width: 100%;
+    width: fit-content;
   }
 
   .acces {
@@ -263,7 +263,38 @@ input {
   .columns {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+
+  .ilustrationtwo {
+    width: 300px;
+    height: 200px;
+  }
+
+  .sectionone img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .headerright {
+    width: 100%;
+  }
+
+  .curve {
+    width: 100%;
+  }
+
+  .one h1 {
+    font-size: 30px;
+  }
+
+  .lefttext h1 {
+    font-size: 30px;
+  }
+
+  .second {
+    width: 160%;
   }
 }
