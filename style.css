@@ -28,7 +28,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 20%;
 }
 
 .text p {
@@ -140,6 +139,8 @@ body {
   background-color: hsl(240, 75%, 98%);
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .sectiontwo {
@@ -278,8 +279,8 @@ input {
     height: 200px;
   }
 
-  .headerright {
-    width: 100%;
+  .header {
+    gap: 8px;
   }
 
   .curve {
